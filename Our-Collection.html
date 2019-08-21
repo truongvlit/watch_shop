@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Custom Watch</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="./CSS/body_in_general.css">
+	<link rel="stylesheet" type="text/css" href="./CSS/footer.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- Icon library -->
+	<link rel="stylesheet" type="text/css" href="./CSS/topbar.css">
+	<link rel="stylesheet" type="text/css" href="./CSS/collection.css">
+	<!-- Script -->
+	<script type="text/javascript" src="./Script/topbar.js"></script>
+	<script type="text/javascript" src="./Script/list_images.js"></script>
+</head>
+<body>
+	<header>
+		<div class="topbar" id="mytopbar">
+			<a href="Home.html" class="topbar_element" id="left">Home</a>
+			<a href="Straps.html" class="topbar_element" id="left">Straps</a>
+			<a href="#/stories" class="topbar_element" id="left">Stories</a>
+			<a href="FAQ.html" class="topbar_element" id="left">FAQ</a>
+			<a href="Contact-us.html" class="topbar_element" style="margin-right: 30.3%" id="left">Contact us</a>
+			<a href="Login.html" class="topbar_element"><img src="./Icon/login.png" class="topbar_icon">Login</a>
+			<a href="#/mydesigns" class="topbar_element"><img src="./Icon/watch.png" class="topbar_icon">My Designs</a>
+			<a class="topbar_element">
+				<select name="select_language" class="custom_select">
+					<option style="background-image: url('./Icon/vn.png');">
+						<img src="./Icon/vn.png" class="select_icon">
+						Tiếng Việt (VN)
+					</option>
+					<option style="background-image: url('./Icon/us.png');">
+						<img src="./Icon/us.png" class="select_icon">
+						English (US)
+					</option>
+					<option style="background-image: url('./Icon/fr.png');">
+						<img src="./Icon/fr.png" class="select_icon">
+						Français (FR)
+					</option>
+					<option style="background-image: url('./Icon/jp.png');">
+						<img src="./Icon/jp.png" class="select_icon">
+						日本語 (ja _ JP)
+					</option>
+				</select>
+			</a>
+			<a class="topbar_element" href="#/cart">
+				<img src="./Icon/cart.png" class="topbar_icon">Cart(0)
+			</a>
+			<a href="javascript:void(0);" class="ham" onclick="responsive_topbar();">
+				<i class="fa fa-bars"></i>
+			</a>
+	</header>
+	<section>
+		<div class="title"><center>Our Collection</center></div>
+	</section>
+	<section>
+		<div class="list_images" id="list_images">
+			<a href="#/#"><img src="./Images/7.jpg" class="image" onmouseover="see_more_over(this);" onmouseout="see_more_out(this);"></a>
+			<a href="#/#"><img src="./Images/8.jpg" class="image" style="" onmouseover="see_more_over(this);" onmouseout="see_more_out(this);"></a>
+			<a href="#/#"><img src="./Images/9.jpg" class="image" style="" onmouseover="see_more_over(this);" onmouseout="see_more_out(this);"></a>
+			<a href="#/#"><img src="./Images/10.jpg" class="image" onmouseover="see_more_over(this);" onmouseout="see_more_out(this);"></a>
+			<a href="#/#"><img src="./Images/11.jpg" class="image" onmouseover="see_more_over(this);" onmouseout="see_more_out(this);"></a>
+			<a href="#/#"><img src="./Images/12.jpg" class="image" onmouseover="see_more_over(this);" onmouseout="see_more_out(this);"></a>
+			<a href="#/#"><img src="./Images/13.jpg" class="image" style="" onmouseover="see_more_over(this);" onmouseout="see_more_out(this);"></a>
+			<a href="#/#"><img src="./Images/14.jpg" class="image" style="" onmouseover="see_more_over(this);" onmouseout="see_more_out(this);"></a>
+			<a href="#/#"><img src="./Images/15.jpg" class="image" onmouseover="see_more_over(this);" onmouseout="see_more_out(this);"></a>
+			<a href="#/#"><img src="./Images/16.jpg" class="image" style="" onmouseover="see_more_over(this);" onmouseout="see_more_out(this);"></a>
+			<a href="#/#"><img src="./Images/17.jpg" class="image" style="" onmouseover="see_more_over(this);" onmouseout="see_more_out(this);"></a>
+			<a href="#/#"><img src="./Images/18.jpg" class="image" onmouseover="see_more_over(this);" onmouseout="see_more_out(this);"></a>
+			<a href="#/#"><img src="./Images/19.jpg" class="image" onmouseover="see_more_over(this);" onmouseout="see_more_out(this);"></a>
+			<a href="#/#"><img src="./Images/20.jpg" class="image" onmouseover="see_more_over(this);" onmouseout="see_more_out(this);"></a>
+			<a href="#/#"><img src="./Images/21.jpg" class="image" style="" onmouseover="see_more_over(this);" onmouseout="see_more_out(this);"></a>
+			<a href="#/#"><img src="./Images/22.jpg" class="image" style="" onmouseover="see_more_over(this);" onmouseout="see_more_out(this);"></a>
+			<a href="#/#"><img src="./Images/23.jpg" class="image" onmouseover="see_more_over(this);" onmouseout="see_more_out(this);"></a>
+			<a href="#/#"><img src="./Images/24.jpg" class="image" style="" onmouseover="see_more_over(this);" onmouseout="see_more_out(this);"></a>
+			<a href="#/#"><img src="./Images/25.jpg" class="image" style="" onmouseover="see_more_over(this);" onmouseout="see_more_out(this);"></a>
+			<a href="#/#"><img src="./Images/26.jpg" class="image" onmouseover="see_more_over(this);" onmouseout="see_more_out(this);"></a>
+			<a href="#/#"><img src="./Images/27.jpg" class="image" onmouseover="see_more_over(this);" onmouseout="see_more_out(this);"></a>
+			<a href="#/#"><img src="./Images/28.jpg" class="image" onmouseover="see_more_over(this);" onmouseout="see_more_out(this);"></a>
+			<a href="#/#"><img src="./Images/29.jpg" class="image" style="" onmouseover="see_more_over(this);" onmouseout="see_more_out(this);"></a>
+			<a href="#/#"><img src="./Images/30.jpg" class="image" style="" onmouseover="see_more_over(this);" onmouseout="see_more_out(this);"></a>
+			<a href="#/#"><img src="./Images/31.jpg" class="image" onmouseover="see_more_over(this);" onmouseout="see_more_out(this);"></a>
+			<a href="#/#"><img src="./Images/32.jpg" class="image" style="" onmouseover="see_more_over(this);" onmouseout="see_more_out(this);"></a>
+			<a href="#/#"><img src="./Images/33.jpg" class="image" style="" onmouseover="see_more_over(this);" onmouseout="see_more_out(this);"></a>
+			<a href="#/#"><img src="./Images/34.jpg" class="image" onmouseover="see_more_over(this);" onmouseout="see_more_out(this);"></a>
+			<a href="#/#"><img src="./Images/35.jpg" class="image" onmouseover="see_more_over(this);" onmouseout="see_more_out(this);"></a>
+			<a href="#/#"><img src="./Images/36.jpg" class="image" onmouseover="see_more_over(this);" onmouseout="see_more_out(this);"></a>
+			<a href="#/#"><img src="./Images/37.jpg" class="image" style="" onmouseover="see_more_over(this);" onmouseout="see_more_out(this);"></a>
+			<a href="#/#"><img src="./Images/38.jpg" class="image" style="" onmouseover="see_more_over(this);" onmouseout="see_more_out(this);"></a>
+			<a href="#/#"><img src="./Images/39.jpg" class="image" onmouseover="see_more_over(this);" onmouseout="see_more_out(this);"></a>
+			<a href="#/#"><img src="./Images/40.jpg" class="image" style="" onmouseover="see_more_over(this);" onmouseout="see_more_out(this);"></a>
+			<a href="#/#"><img src="./Images/41.jpg" class="image" style="" onmouseover="see_more_over(this);" onmouseout="see_more_out(this);"></a>
+			<a href="#/#"><img src="./Images/42.jpg" class="image" onmouseover="see_more_over(this);" onmouseout="see_more_out(this);"></a>
+			<a href="#/#"><img src="./Images/43.jpg" class="image" onmouseover="see_more_over(this);" onmouseout="see_more_out(this);"></a>
+			<a href="#/#"><img src="./Images/44.jpg" class="image" onmouseover="see_more_over(this);" onmouseout="see_more_out(this);"></a>
+			<a href="#/#"><img src="./Images/45.jpg" class="image" style="" onmouseover="see_more_over(this);" onmouseout="see_more_out(this);"></a>
+			<a href="#/#"><img src="./Images/46.jpg" class="image" style="" onmouseover="see_more_over(this);" onmouseout="see_more_out(this);"></a>
+			<a href="#/#"><img src="./Images/47.jpg" class="image" style="" onmouseover="see_more_over(this);" onmouseout="see_more_out(this);"></a>
+			<a href="#/#"><img src="./Images/48.jpg" class="image" style="" onmouseover="see_more_over(this);" onmouseout="see_more_out(this);"></a>
+		</div>
+	</section>
+	<footer class="footer">
+		<div>
+			<section class="left_side_footer">
+				<a href="#/facebook">
+					<img src="./Icon/facebook.png" class="footer_icon">
+				</a>
+				<a href="#/instagram">
+					<img src="./Icon./Instagram.png" class="footer_icon">
+				</a>
+				<a href="#/pinterest">
+					<img src="./Icon/pinterest.png" class="footer_icon">
+				</a>
+				<a href="#/twitter">
+					<img src="./Icon/twitter.png" class="footer_icon">
+				</a>
+				<a href="#/youtube">
+					<img src="./Icon/youtube.png" class="footer_icon">
+				</a>
+				<br>
+				<a href="#/#" class="footer_right">
+					<img src="./Icon/mail.png" style="margin-right: 5px; width: 25px; margin-top: 20px; content: none;" class="footer_icon"> info@eoniq.co
+				</a>
+				<div>
+					<img src="./Icon/world.png" style="margin-right: 5px; width: 25px; margin-top: 20px;" class="footer_icon">
+					Worldwide Shipping
+				</div>
+				<div style="margin-top: 2.2%">
+					Copyright &copy; 2018 EONIQ(HK) LIMITED. All Right Reserved.
+				</div>
+				<div>
+					<img src="./Icon/payment.png" class="payment_icon">
+				</div>
+			</section>
+			<section>
+				<div class="right_side_footer">
+					<a href="#/#" class="footer_right">Stories<br><br></a>
+					<a href="#/#" class="footer_right">Press Reviews<br><br></a>
+					<a href="FAQ.html" class="footer_right">FAQ<br><br></a>
+					<a href="Contact-us.html" class="footer_right">Contact us<br><br></a>
+					<a href="#/#" class="footer_right">Privacy<br><br></a>
+					<a href="#/#" class="footer_right">Terms & Condition<br><br></a>
+				</div>
+			</section>
+		</div>
+	</footer>
+</body>
+</html>
