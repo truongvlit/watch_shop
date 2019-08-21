@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Custom Watch</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="./CSS/body_in_general.css">
+	<link rel="stylesheet" type="text/css" href="./CSS/icon_below_slide.css">
+	<link rel="stylesheet" type="text/css" href="./CSS/video_below_slide.css">
+	<link rel="stylesheet" type="text/css" href="./CSS/list_images.css">
+	<link rel="stylesheet" type="text/css" href="./CSS/footer.css">
+	<link rel="stylesheet" type="text/css" href="./CSS/visit.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- Icon library -->
+	<link rel="stylesheet" type="text/css" href="engine1/style.css"/>	<!-- Slide CSS -->
+	<link rel="stylesheet" type="text/css" href="./CSS/topbar.css">
+
+	<!-- Script -->
+	<script type="text/javascript" src="engine1/jquery.js"></script>	<!-- Slide script -->
+	<script type="text/javascript" src="./Script/topbar.js"></script>
+	<script type="text/javascript" src="./Script/list_images.js"></script>
+</head>
+<body>
+	<header>
+		<div class="topbar" id="mytopbar">
+			<a href="Home.html" class="topbar_element" id="left">Home</a>
+			<a href="Straps.html" class="topbar_element" id="left">Straps</a>
+			<a href="#/stories" class="topbar_element" id="left">Stories</a>
+			<a href="FAQ.html" class="topbar_element" id="left">FAQ</a>
+			<a href="Contact-us.html" class="topbar_element" style="margin-right: 30.3%" id="left">Contact us</a>
+			<a href="Login.html" class="topbar_element"><img src="./Icon/login.png" class="topbar_icon">Login</a>
+			<a href="#/mydesigns" class="topbar_element"><img src="./Icon/watch.png" class="topbar_icon">My Designs</a>
+			<a class="topbar_element">
+				<select name="select_language" class="custom_select">
+					<option style="background-image: url('./Icon/vn.png');">
+						<img src="./Icon/vn.png" class="select_icon">
+						Tiếng Việt (VN)
+					</option>
+					<option style="background-image: url('./Icon/us.png');">
+						<img src="./Icon/us.png" class="select_icon">
+						English (US)
+					</option>
+					<option style="background-image: url('./Icon/fr.png');">
+						<img src="./Icon/fr.png" class="select_icon">
+						Français (FR)
+					</option>
+					<option style="background-image: url('./Icon/jp.png');">
+						<img src="./Icon/jp.png" class="select_icon">
+						日本語 (ja _ JP)
+					</option>
+				</select>
+			</a>
+			<a class="topbar_element" href="#/cart">
+				<img src="./Icon/cart.png" class="topbar_icon">Cart(0)
+			</a>
+			<a href="javascript:void(0);" class="ham" onclick="responsive_topbar();">
+				<i class="fa fa-bars"></i>
+			</a>
+	</header>
+	<section class="home_slide">
+		<div id="wowslider-container1">
+			<div class="ws_images">
+				<ul>
+					<li>
+						<img src="./Images/slide1.jpg" alt="Custom Watch" title="Custom Watch" id="wows1_0"/>Your unique signature
+					</li>
+					<li>
+						<img src="./Images/slide2.jpg" alt="Simplistic design with mechanical sophistication" title="Simplistic design with mechanical sophistication" id="wows1_1"/>the Alster Series
+					</li>
+					<li>
+						<img src="./Images/slide3.jpg" alt="Bespoke Perfection. For the brave" title="Bespoke Perfection. For the brave" id="wows1_2"/>the Navigator Series
+					</li>
+					<li>
+						<img src="./Images/slide4.jpg" alt="Wear your story" title="Wear your story" id="wows1_3"/>Stand out in any crowd
+					</li>
+					<li>
+						<img src="./Images/slide5.jpg" title="Testament to our love story" id="wows1_4"/></a>Custom Couple Watches
+					</li>
+					<li>
+						<img src="./Images/slide6.jpg" alt="" title="" id="wows1_5"/>
+					</li>
+				</ul>
+			</div>
+			<div class="ws_bullets">
+				<div>
+					<a href="#" title="Custom Watch">
+						<span>
+							<img src="./Images/tooltips/slide1.jpg" alt="Custom Watch"/>1
+						</span>
+					</a>
+					<a href="#" title="Simplistic design with mechanical sophistication">
+						<span>
+							<img src="./Images/tooltips/slide2.jpg" alt="Simplistic design with mechanical sophistication"/>2
+						</span>
+					</a>
+					<a href="#" title="Bespoke Perfection. For the brave">
+						<span>
+							<img src="./Images/tooltips/slide3.jpg" alt="Bespoke Perfection. For the brave"/>3
+						</span>
+					</a>
+					<a href="#" title="Wear your story">
+						<span>
+							<img src="./Images/tooltips/slide4.jpg" alt="Wear your story"/>4
+						</span>
+					</a>
+					<a href="#" title="Testament to our love story">
+						<span>
+							<img src="./Images/tooltips/slide5.jpg" alt="Testament to our love story"/>5
+						</span>
+					</a>
+					<a href="#" title="">
+						<span>
+							<img src="./Images/tooltips/slide6.jpg" alt=""/>6
+						</span>
+					</a>
+				</div>
+			</div>
+		</div>	
+		<script type="text/javascript" src="engine1/wowslider.js"></script>
+		<script type="text/javascript" src="engine1/script.js"></script>
+	</section>
+	<section>
+		<div class="icon_below_slide">
+			<img src="./Icon/below-slide/metro.png" class="icon_below_slide1">
+			<img src="./Icon/below-slide/mypremium.png" class="icon_below_slide2">
+			<img src="./Icon/below-slide/elle.png" class="icon_below_slide3">
+			<img src="./Icon/below-slide/be.png" class="icon_below_slide4">
+			<img src="./Icon/below-slide/goody25.png" class="icon_below_slide5">
+		</div>
+	</section>
+	<section>
+		<div>
+			<div class="block_video">
+				<div class="video_text">
+					Time-slowing<br>
+					craftsmanship<br>
+					<p style="font-size: 20px;">
+						We believe in our watchmakers' crafts.<br>
+						Not some mindless assembly lines.
+					</p>
+				</div>
+				<video src="./Video/1.mp4" autoplay loop class="video_below_slide"></video> <!-- will make it autoplay/repeat after-->
+			</div>
+		</div>
+	</section>
+	<section>
+		<div class="list_images" id="list_images">
+			<a href="#/#"><img src="./Images/1.jpg" class="image" id="image_1" onmouseover="see_more_over(this);" onmouseout="see_more_out(this);" ></a>
+			<a href="#/#"><img src="./Images/2.jpg" class="image" id="image_2" onmouseover="see_more_over(this);" onmouseout="see_more_out(this);"></a>
+			<a href="#/#"><img src="./Images/3.jpg" class="image" id="image_3" onmouseover="see_more_over(this);" onmouseout="see_more_out(this);" ></a>
+			<a href="#/#"><img src="./Images/35.jpg"class="image" id="image_4" onmouseover="see_more_over(this);" onmouseout="see_more_out(this);"></a>		
+			<a href="#/#"><img src="./Images/4.jpg" class="image" id="image_5" onmouseover="see_more_over(this);" onmouseout="see_more_out(this);"></a>
+			<a href="#/#"><img src="./Images/6.jpg" class="image" id="image_6" onmouseover="see_more_over(this);" onmouseout="see_more_out(this);"></a>
+			<a href="#/#"><img src="./Images/5.jpg" class="image" id="image_7" style="" onmouseover="see_more_over(this);" onmouseout="see_more_out(this);"></a>
+			<a href="#/#"><img src="./Images/7.jpg" class="image" id="image_8" onmouseover="see_more_over(this);" onmouseout="see_more_out(this);">
+		</div>
+		<div style="position: relative; text-align: center; padding: 2%; font-size: 20px;">
+			<a href="Our-Collection.html">See more</a>
+		</div>
+	</section>
+	<section class="visit_store">
+		<div class="visit">
+			<div class="visit_text">
+				<div class="visit_title">Visit our store</div>
+				<div style="font-size: 18px;" class="visit_content">Try before you buy. 1 on 1 design service. And a free drink.</div>
+				<a href="#/button"><button type="button" value="Make an appointment" style="padding: 5%; margin: 5%; padding-left: 20%; padding-right: 20%">Make an appointment</button></a><br>
+				<div style="font-size: 17px;" class="visit_content">@Giong Trom, Ben Tre, Vietnam</div>
+			</div>
+			<div>
+				<img src="./Images/Visit.jpg" class="visit_image">
+			</div>
+		</div>
+	</section>
+	<footer class="footer">
+		<div>
+			<section class="left_side_footer">
+				<a href="#/facebook">
+					<img src="./Icon/facebook.png" class="footer_icon">
+				</a>
+				<a href="#/instagram">
+					<img src="./Icon./Instagram.png" class="footer_icon">
+				</a>
+				<a href="#/pinterest">
+					<img src="./Icon/pinterest.png" class="footer_icon">
+				</a>
+				<a href="#/twitter">
+					<img src="./Icon/twitter.png" class="footer_icon">
+				</a>
+				<a href="#/youtube">
+					<img src="./Icon/youtube.png" class="footer_icon">
+				</a>
+				<br>
+				<a href="#/#" class="footer_right">
+					<img src="./Icon/mail.png" style="margin-right: 5px; width: 25px; margin-top: 20px; content: none;" class="footer_icon"> info@eoniq.co
+				</a>
+				<div>
+					<img src="./Icon/world.png" style="margin-right: 5px; width: 25px; margin-top: 20px;" class="footer_icon">
+					Worldwide Shipping
+				</div>
+				<div style="margin-top: 2.2%;">
+					Copyright &copy; 2018 EONIQ(HK) LIMITED. All Right Reserved.
+				</div>
+				<div>
+					<img src="./Icon/payment.png" class="payment_icon">
+				</div>
+			</section>
+			<section>
+				<div class="right_side_footer">
+					<a href="#/#" class="footer_right">Stories<br><br></a>
+					<a href="#/#" class="footer_right">Press Reviews<br><br></a>
+					<a href="FAQ.html" class="footer_right">FAQ<br><br></a>
+					<a href="Contact-us.html" class="footer_right">Contact us<br><br></a>
+					<a href="#/#" class="footer_right">Privacy<br><br></a>
+					<a href="#/#" class="footer_right">Terms & Condition<br><br></a>
+				</div>
+			</section>
+		</div>
+	</footer>
+</body>
+</html>
