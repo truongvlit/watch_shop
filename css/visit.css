@@ -1,0 +1,42 @@
+.visit {
+	position: relative;
+	text-align: center;
+	color: rgb(255,255,255,1);
+}
+.visit_image {
+	width: 100%;
+}
+.visit_text {
+	position: absolute;
+	font-size: 35px;
+	font-weight: lighter;
+	right: 10%;
+	bottom: 40%;
+}
+@media screen and (max-width: 1300px) {
+	.visit_text {
+		position: absolute;
+		bottom: 10%;
+		left: 10%;
+		z-index: 2;
+	}
+}
+@media screen and (max-width: 500px) {
+	.visit_content {
+		font-size: 14px!important;
+	}
+	.visit_title {
+		font-size: 16px!important;
+	}
+	button {
+		background-color: rgba(13,202,242,0.4);
+	}
+}	
+@media screen and (max-width: 380px) {
+	.visit_content {
+		visibility: hidden!important;
+	}
+	.visit_title {
+		visibility: hidden!important;
+	}
+}

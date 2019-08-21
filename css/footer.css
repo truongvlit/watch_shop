@@ -1,0 +1,48 @@
+footer {
+	background-color: rgba(3,3,3,0.5);
+	height: 300px;
+}
+.left_side_footer {
+	height: 100%;
+	width: 50%;
+	margin-left: 2.2%;	
+	float: left;
+	padding: 10px;
+}
+.right_side_footer {
+	padding: 10px;
+}
+.footer_icon {
+	width: 25px;
+	margin-right: 4%; 
+}
+.payment_icon {
+	width: 64%;
+	margin-top: 4.4%;
+	margin-left: -2.2%;
+}
+.footer_right {
+	margin-left: 1px;
+}
+a.footer_right:hover {
+	color: rgba(255,255,255,0.9);
+}
+a.mail:hover {
+	color: rgba(255,255,255,0.9);
+}
+@media screen and (max-width: 600px) {
+	.payment_icon {
+		width: 180px!important;
+	}
+	.footer_icon {
+		width: 17px!important;
+	}
+	.payment_icon {
+		position: relative;
+		width: 90%!important;
+		top: 0px!important;
+	}
+	.footer_right {
+		
+	}
+}

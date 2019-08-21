@@ -1,0 +1,25 @@
+.icon_below_slide {
+	float: left;
+	margin-left: 20%;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+.icon_below_slide1 {
+	padding-right: 8.8%;
+	width: calc(100% - 92%);
+}
+.icon_below_slide2 {
+	padding-right: 8.8%;
+	width: calc(100% - 92%);
+}
+.icon_below_slide3 {
+	padding-right: 9%;
+	width: calc(100% - 92%);
+}
+.icon_below_slide4 {
+	padding-right: 9%;
+	width: calc(100% - 96%);
+}
+.icon_below_slide5 {
+	width: calc(100% - 91%);
+}

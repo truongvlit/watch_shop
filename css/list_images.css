@@ -1,0 +1,34 @@
+table {
+	text-decoration: none;
+	border: none;
+}
+.image {
+	position: relative;
+	width: 24.68%;
+}
+@media screen and (max-width: 1200px) {
+	#image_1, #image_2, #image_3, #image_6 {
+		display: none;
+	}
+	#image_4, #image_7, #image_8, #image_5 {
+		position: relative;
+		width: 24.68%;
+	}
+}
+@media screen and (max-width: 1170px) {
+	#image_8, #image_5 {
+		display: none;
+	}
+	#image_4, #image_7 {
+		width: 49.67%;
+	}
+}
+@media screen and (max-width: 800px) {
+	#image_4, #image_7 {
+		display: none;
+	}
+	#image_8 {
+		display: initial;
+		width: 100%;
+	}
+}

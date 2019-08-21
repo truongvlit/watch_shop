@@ -1,0 +1,81 @@
+.strap_image {
+	position: relative;
+	left: 15%;
+	width: 450px;
+	height: 300px;
+}
+.strap_name, .strap_note, .strap_button {
+	position: relative;
+	left: 55%;
+	bottom: 250px;
+}
+.strap_name {
+	font-size: 35px;
+	width: 30%;
+}
+.strap_note {
+	width: 25%;
+}
+.strap_price {
+	position: relative;
+	width: 30%;
+	left: 2%;
+	font-size: 15px!important;
+}
+.strap_button {
+	width: 180px;
+	height: 50px;
+}
+.separate_line {
+	position: relative;
+	left: 5%;
+	bottom: 130px;
+	width: 90%;
+	border: 0.5px solid rgb(200,200,200);
+	border-collapse: collapse;
+}
+@media screen and (max-width: 1000px) {
+	.strap_image {
+		position: relative;
+		left: 0!important;
+		padding-left: 25%;
+		width: 50%;
+		height: 50%;
+	}
+	.strap_name, .strap_note, .strap_button {
+		position: relative;
+		text-align: center;
+		left: 10%;
+		bottom: 25%;
+	}
+	.strap_name {
+		font-size: 35px;
+		width: 85%;
+	}
+	.strap_note {
+		left: 8.5%!important;
+		width: 85%;
+
+	}
+	.strap_price {
+		position: relative;
+		width: 30%;
+		left: 2%;
+		font-size: 15px!important;
+	}
+	.strap_button {
+		position: relative;
+		left: 33.5%;
+		width: 35%;
+		height: 40px;
+		margin-bottom: 10%;
+	}
+	.separate_line {
+		position: relative;
+		left: 5%;
+		bottom: 10%;
+		width: 90%;
+		border: 0.5px solid rgb(200,200,200);
+		border-collapse: collapse;
+	}
+}

@@ -1,0 +1,78 @@
+.topbar {
+    font-family: Times New Roman!important;
+    width: 100%;
+    overflow: hidden;
+    background-color: white;
+    -webkit-box-shadow: 0px 8px 18px -5px rgba(0,0,0,0.4);
+    -moz-box-shadow: 0px 8px 18px -5px rgba(0,0,0,0.4);
+    box-shadow: 0px 8px 18px -5px rgba(0,0,0,0.4);
+}
+
+.custom_select {
+    padding: 3px 10px;
+    position: relative;
+}
+
+.topbar a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 13px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    margin-bottom: 0px;
+}
+
+#left {
+    padding: 15px 16px!important;
+}
+
+.topbar a:hover {
+    background-color: rgba(220,220,220,0.3);
+    color: black;
+}
+
+.topbar_icon {
+    width: 20px;
+    height: 18px;
+}
+
+.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.topbar .ham {
+    display: none;
+}
+
+@media screen and (max-width: 1300px) {
+    .topbar a {
+        display: none;
+    }
+    .topbar a.ham {
+        float: right;
+        display: block;
+    }
+}
+
+@media screen and (max-height: 2000px) {
+    .topbar.responsive {
+        z-index: 99;
+        position: relative;
+    }
+    .topbar.responsive .ham {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .topbar.responsive a {
+        float: none;
+        display: block;
+        text-align: center;
+    }
+    .topbar.responsive .topbar_element {
+        width: 100%;
+    }
+}

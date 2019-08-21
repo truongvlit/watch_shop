@@ -1,0 +1,32 @@
+table {
+	text-decoration: none;
+	border: none;
+}
+.title {
+	font-size: 45px;
+	padding-top: 5%;
+	padding-bottom: 10%;	
+}
+.image {
+	margin: 0;
+	position: relative;
+/*	left: -3px;*/
+	width: 24.7%;
+}
+@media screen and (max-width: 1250px) {
+	.image {
+		position: relative;
+		width: 32.9%;
+	}
+}
+@media screen and (max-width: 850px) {
+	.image {
+		position: relative;
+		width: 49.5%;
+	}
+}
+@media screen and (max-width: 500px) {
+	.image {
+		width: 100%;
+	}
+}
