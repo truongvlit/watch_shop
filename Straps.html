@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Custom Watch</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="./CSS/body_in_general.css">
+	<link rel="stylesheet" type="text/css" href="./CSS/footer.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- Icon library -->
+	<link rel="stylesheet" type="text/css" href="./CSS/topbar.css">
+	<link rel="stylesheet" type="text/css" href="./CSS/straps.css">
+	<!-- Script -->
+	<script type="text/javascript" src="./Script/topbar.js"></script>
+</head>
+<body>
+	<header>
+		<div class="topbar" id="mytopbar">
+			<a href="Home.html" class="topbar_element" id="left">Home</a>
+			<a href="Straps.html" class="topbar_element" id="left">Straps</a>
+			<a href="#/stories" class="topbar_element" id="left">Stories</a>
+			<a href="FAQ.html" class="topbar_element" id="left">FAQ</a>
+			<a href="Contact-us.html" class="topbar_element" style="margin-right: 30.3%" id="left">Contact us</a>
+			<a href="Login.html" class="topbar_element"><img src="./Icon/login.png" class="topbar_icon">Login</a>
+			<a href="#/mydesigns" class="topbar_element"><img src="./Icon/watch.png" class="topbar_icon">My Designs</a>
+			<a class="topbar_element">
+				<select name="select_language" class="custom_select">
+					<option style="background-image: url('./Icon/vn.png');">
+						<img src="./Icon/vn.png" class="select_icon">
+						Tiếng Việt (VN)
+					</option>
+					<option style="background-image: url('./Icon/us.png');">
+						<img src="./Icon/us.png" class="select_icon">
+						English (US)
+					</option>
+					<option style="background-image: url('./Icon/fr.png');">
+						<img src="./Icon/fr.png" class="select_icon">
+						Français (FR)
+					</option>
+					<option style="background-image: url('./Icon/jp.png');">
+						<img src="./Icon/jp.png" class="select_icon">
+						日本語 (ja _ JP)
+					</option>
+				</select>
+			</a>
+			<a class="topbar_element" href="#/cart">
+				<img src="./Icon/cart.png" class="topbar_icon">Cart(0)
+			</a>
+			<a href="javascript:void(0);" class="ham" onclick="responsive_topbar();">
+				<i class="fa fa-bars"></i>
+			</a>
+	</header>
+	<section style="font-family: Lucida Bright Regular, sans-serif;">
+		<div style="font-size: 40px; padding-top: 5%; padding-bottom: 10%;">
+			<center>Strap Collections</center>
+		</div>
+		<div class="strap_list">
+			<img src="./Images/Strap/Classic.jpg" class="strap_image">
+			<p class="strap_name">Classic Strap<small class="strap_price">USD40</small></p>
+			<p class="strap_note">Authenticity in the classics</p>
+			<button class="strap_button">Shop Collection</button>
+			<div class="separate_line"></div>
+		</div>
+		<div class="strap_list">
+			<img src="./Images/Strap/Mesh.jpg" class="strap_image">
+			<p class="strap_name">Mesh Band<small class="strap_price">USD50</small></p>
+			<p class="strap_note">Sophistication with the delicate stainless steel mesh</p>
+			<button class="strap_button">Shop Collection</button>
+			<div class="separate_line"></div>
+		</div>		
+		<div class="strap_list">
+			<img src="./Images/Strap/Military.jpg" class="strap_image">
+			<p class="strap_name">Military Strap<small class="strap_price">USD40</small></p>
+			<p class="strap_note">A minimalistic leather strap with a raw and natural feeling</p>
+			<button class="strap_button">Shop Collection</button>
+			<div class="separate_line"></div>
+		</div>		
+		<div class="strap_list">
+			<img src="./Images/Strap/Modern.jpg" class="strap_image">
+			<p class="strap_name">Modern Strap<small class="strap_price">USD40</small></p>
+			<p class="strap_note">Contemporary smoothened style for a fresh look</p>
+			<button class="strap_button">Shop Collection</button>
+			<div class="separate_line"></div>
+		</div>		
+		<div class="strap_list">
+			<img src="./Images/Strap/Pilot.jpg" class="strap_image">
+			<p class="strap_name">Pilot Strap<small class="strap_price">USD60</small></p>
+			<p class="strap_note">Dual rivet and maturing leather to go with the classic aviator style</p>
+			<button class="strap_button">Shop Collection</button>
+			<div class="separate_line"></div>
+		</div>		
+		<div class="strap_list">
+			<img src="./Images/Strap/Vintage.jpg" class="strap_image">
+			<p class="strap_name">Vintage Strap<small class="strap_price">USD40</small></p>
+			<p class="strap_note">Quality expressed through its material inception</p>
+			<button class="strap_button">Shop Collection</button>
+			<div class="separate_line"></div>
+		</div>		
+		<div class="strap_list">
+			<img src="./Images/Strap/Steel-Bracelet.jpg" class="strap_image" style="margin-top: 10%;">
+			<p class="strap_name">Steel Bracelet<small class="strap_price">USD100</small></p>
+			<p class="strap_note"></p>
+			<button class="strap_button">Shop Collection</button>
+			<div class="separate_line"></div>
+		</div>		
+		<div class="strap_list">
+			<img src="./Images/Strap/Nubuck.jpg" class="strap_image">
+			<p class="strap_name">Nubuck Strap<small class="strap_price">USD60</small></p>
+			<p class="strap_note"></p>
+			<button class="strap_button">Shop Collection</button>
+			<div class="separate_line"></div>
+		</div>		
+		<div class="strap_list">
+			<img src="./Images/Strap/Alligator.jpg" class="strap_image">
+			<p class="strap_name">Alligator Strap<small class="strap_price">USD60</small></p>
+			<p class="strap_note">The perfect complement to your most formal custom watch</p>
+			<button class="strap_button">Shop Collection</button>
+			<div class="separate_line"></div>
+		</div>		
+		<div class="strap_list">
+			<img src="./Images/Strap/Perlon.jpg" class="strap_image">
+			<p class="strap_name">Perlon Strap<small class="strap_price">USD40</small></p>
+			<p class="strap_note">Your Daily Wearable Art</p>
+			<button class="strap_button">Shop Collection</button>
+			<div class="separate_line"></div>
+		</div>		
+		<div class="strap_list">
+			<img src="./Images/Strap/Sfumato.jpg" class="strap_image">
+			<p class="strap_name">Sfumato Strap<small class="strap_price">USD40</small></p>
+			<p class="strap_note">Best option for artists</p>
+			<button class="strap_button">Shop Collection</button>
+			<div class="separate_line"></div>
+		</div>		
+		<div class="strap_list">
+			<img src="./Images/Strap/Vachette.jpg" class="strap_image">
+			<p class="strap_name">Vachette Strap<small class="strap_price">USD40</small></p>
+			<p class="strap_note">Premium vachette leather will develop a rich patina to match all your beauties</p>
+			<button class="strap_button">Shop Collection</button>
+			<div class="separate_line"></div>
+		</div>		
+		<div class="strap_list">
+			<img src="./Images/Strap/Navy-Blue-Strap.jpg" class="strap_image">
+			<p class="strap_name">Navy Blue Strap<small class="strap_price">USD40</small></p>
+			<p class="strap_note">The “all-purpose” strap - soft, pliable, thin and versatile</p>
+			<button class="strap_button">Shop Collection</button>
+			<div class="separate_line"></div>
+		</div>		
+		<div class="strap_list">
+			<img src="./Images/Strap/Classic-Vegetal-Strap.jpg" class="strap_image">
+			<p class="strap_name">Classic Vegetal Strap<small class="strap_price">USD40</small></p>
+			<p class="strap_note">Premium Italian vegetable tanned leather</p>
+			<button class="strap_button">Shop Collection</button>
+			<div class="separate_line"></div>
+		</div>
+	</section>
+	<footer class="footer">
+		<div>
+			<section class="left_side_footer">
+				<a href="#/facebook">
+					<img src="./Icon/facebook.png" class="footer_icon">
+				</a>
+				<a href="#/instagram">
+					<img src="./Icon./Instagram.png" class="footer_icon">
+				</a>
+				<a href="#/pinterest">
+					<img src="./Icon/pinterest.png" class="footer_icon">
+				</a>
+				<a href="#/twitter">
+					<img src="./Icon/twitter.png" class="footer_icon">
+				</a>
+				<a href="#/youtube">
+					<img src="./Icon/youtube.png" class="footer_icon">
+				</a>
+				<br>
+				<a href="#/#" class="footer_right">
+					<img src="./Icon/mail.png" style="margin-right: 5px; width: 25px; margin-top: 20px; content: none;" class="footer_icon"> info@eoniq.co
+				</a>
+				<div>
+					<img src="./Icon/world.png" style="margin-right: 5px; width: 25px; margin-top: 20px;" class="footer_icon">
+					Worldwide Shipping
+				</div>
+				<div style="margin-top: 2.2%">
+					Copyright &copy; 2018 EONIQ(HK) LIMITED. All Right Reserved.
+				</div>
+				<div>
+					<img src="./Icon/payment.png" class="payment_icon">
+				</div>
+			</section>
+			<section>
+				<div class="right_side_footer">
+					<a href="#/#" class="footer_right">Stories<br><br></a>
+					<a href="#/#" class="footer_right">Press Reviews<br><br></a>
+					<a href="FAQ.html" class="footer_right">FAQ<br><br></a>
+					<a href="Contact-us.html" class="footer_right">Contact us<br><br></a>
+					<a href="#/#" class="footer_right">Privacy<br><br></a>
+					<a href="#/#" class="footer_right">Terms & Condition<br><br></a>
+				</div>
+			</section>
+		</div>
+	</footer>
+</body>
+</html>
